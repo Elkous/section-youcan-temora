@@ -100,9 +100,13 @@ box .flex .c-img img{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .box .foter img{
-    
+    width: 200px;
+}
+.box .foter p{
+    width: 320px;
 }
 
 
