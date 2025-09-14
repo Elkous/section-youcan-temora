@@ -98,25 +98,21 @@ box .flex .c-img img{
 }
 
 .box .foter{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    border: 2px solid rgb(231 60 16);
-    padding: 15px 0;
-    border-bottom-left-radius:20px;
-    border-top-left-radius:20px;
-    border-top-right-radius:20px;
+    border: 2px dashed rgb(16, 231, 77);
+    height: 400px;
+    width: 320px;
+    padding:0 20px;
+}
+.box .foter img{
+    width: 40%;
+    float: left;
+    margin-right: 8px;
+} 
+.box.foter p{
+    width: 50%;
+    float: right;
 }
 
-.box .foter img{
-    width: 250px;
-    margin: 10px auto;
-}
-.box .foter p{
-    width: 250px;
-    padding: 0 20px 0 0;
-}
 
 
 
